@@ -17,13 +17,13 @@ class MainActivity : AppCompatActivity() {
             SwitchIconTask(
                 SplashActivity::class.java.name,
                 "$packageName.SplashAliasActivity",
-                format.parse("2020-10-27").time,
-                format.parse("2020-11-02").time
+                format.parse("2020-08-02").time,
+                format.parse("2020-08-09").time
             ),
             SwitchIconTask(
                 SplashActivity::class.java.name,
                 "$packageName.SplashAlias2Activity",
-                format.parse("2020-11-11").time,
+                format.parse("2020-11-05").time,
                 format.parse("2020-11-12").time
             )
         )
